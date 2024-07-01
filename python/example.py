@@ -1,41 +1,22 @@
-x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-y = ["mango", "orange", "lemon", "coconut", "pineapple"]
+# -------------------- Sets ---------------------------
 
-for i in x:
-    print(i)
+mySet = {"banana", "mango", "apple", "orange", "pineapple"}
+set2 = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+x= [10, 11, 13, True]
+y = {2, 4, 6, 8, 10, 12, 16, 18, 20}
+set3 = set2 | y
+print(set3)
 
-for i in range(len(y)):
-    print(y[i])
+# ------------------ Dictionary --------------------------
+myDict = {"name": "Ikenna", "age": 20, "institution": "FUNAI", "graduationYear": 2021, "isStudent": False, "skill":["HTML", "CSS", "JS", "C#", "JAVA", "PYTHON"]}
+print(myDict["skill"])
+skill = myDict.get("skill")
+print(skill)
+print(myDict.keys())
+print(myDict.values())
+print(myDict.items())
+[print(myDict["age"]) if "age" in myDict else printL("Age not in the object")]
 
-[print(i) for i in x]
-
-
-z = [i for i in y if i != "lemon"]
-print(z)
-
-for i in x:
-    if i > 5:
-        print(i)
-    else:
-        print("*")
-
-j = [i if i != "mango" else "orange" for i in y]
-print(j)
-
-unsorted = [4, 3, 2, 0, 1, 9, 8, 7]
-
-print(sorted(unsorted))
-
-m = x.copy()
-print("Before changing", m)
-x[5] = 12
-print("After changing:", m)
-
-#------------------------ Tuple --------------------
-t = ("apple", "banana", "cherry")
-print(t)
-myTuple = ("mango",)
-print(type(myTuple))
-
-o = t * 2
-print(o)
+for x in myDict:
+    print(f"{x} : {myDict[x]}")
+[print(f"{x} : {myDict[x]}") for x in myDict]
