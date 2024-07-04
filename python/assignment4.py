@@ -1,14 +1,24 @@
 #Task 1
+def reverse_string(string):
+    reversedString = ""
+    i = len(string) - 1
+    while i >= 0:
+        reversedString += string[i]
+        i -= 1
+    print(reversedString)
+
 word = "supercalifragilisticexplialidocious"
-print(word[::-1])
+reverse_string(word)
 
 #Task 2
-def numbers(num):
-    i = 0
+def sumNumbers(num):
+    total = 0
+    i = 1
     while i <= num:
-        print(i)
-        i += 1
-numbers(50)
+       total += i
+       i += 1  
+    print(total)
+sumNumbers(50)
 
 
 #Task 3
