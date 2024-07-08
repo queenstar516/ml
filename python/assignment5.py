@@ -20,5 +20,5 @@ def replaceLetters(word, letters_dict):
             replacedWord += char
     return replacedWord
 
-orgWord = "Hello, I an a Bot"
+orgWord = "Hello, I am a Bot"
 print(replaceLetters(orgWord, letters))
