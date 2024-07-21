@@ -40,3 +40,39 @@ def createNewList(list):
         i += 1
     return newList
 print(createNewList(integers)) 
+
+
+
+#Lambda Functions
+x = lambda a: a + 10
+print(x(2)) 
+
+add = lambda a, b: a + b
+sub = lambda a, b: a - b
+mul = lambda a, b: a * b
+mod = lambda a, b: a % b
+div = lambda a, b: a / b
+
+print(add(5, 3))
+print(sub(89, 34))
+
+
+def newFunc(y):
+    return lambda a: a * y
+
+n = newFunc(6)
+print(n(2))
+
+
+
+#Try.....Except
+def div(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        print(ZeroDivisionError)
+        return "An exception occurs"
+    finally:
+        return "No exception"
+
+print(div(2, 0))
