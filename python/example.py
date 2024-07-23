@@ -76,3 +76,27 @@ def div(a, b):
         return "No exception"
 
 print(div(2, 0))
+
+
+
+#Classes and Objects
+class Person:
+    def __init__(self, name, age, phoneNumber):
+        self.name = name
+        self.age = age
+        self.phoneNumber = phoneNumber
+
+    def __str__(self):
+        return f"{self.name} {self.age} {self.phoneNumber}"
+    
+    def getName(self):
+        return f"Hello, my name is {self.name}"
+        
+
+person1 = Person("Nathan", 25, "0917374756997")
+print(person1.name)
+print(person1.age)
+print(person1.phoneNumber)
+print(person1.getName())
+
+
