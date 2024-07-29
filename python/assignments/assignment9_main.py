@@ -1,6 +1,8 @@
 from assignment9_faculty import Faculty
 from assignment9_department import Department
 from assignment9_course import Course
+import json
+
 
 science_faculty = Faculty(
     name= "Sciences",
@@ -38,3 +40,17 @@ cs_department.add_course(course_ai)
 print(science_faculty)
 print(cs_department)
 print(course_ai)
+
+
+fac = open("python/assignments/files/faculty.json", "w")
+fac.write(json.dumps(science_faculty.to_dict(), indent=4, separators=(", ", " : "), sort_keys=True))
+fac.close()
+
+dept = open("python/assignments/files/department.json", "w")
+departmentList = [cs_department.to_dict()]
+dept.write(json.dumps(departmentList, indent=4, separators=(", ", " : "), sort_keys=True))
+dept.close()
+
+cour = open("python/assignments/files/course.json", "w")
+cour.write(json.dumps(departmentList, indent=4, separators=(", ", " : "), sort_keys=True))
+cour.close()

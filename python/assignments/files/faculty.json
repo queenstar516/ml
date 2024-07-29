@@ -1,0 +1,48 @@
+{
+    "Classrooms" : [], 
+    "Faculty Members" : [], 
+    "Labs" : [], 
+    "Libraries" : [], 
+    "Research Areas" : [], 
+    "courses Offered" : [
+        {
+            "courseId" : "CS504", 
+            "credits" : 3, 
+            "department" : "Computer Science", 
+            "enrolledStudents" : [], 
+            "lecturer" : "Dr Jane Doe", 
+            "name" : "Artificial Intelligence", 
+            "schedule" : "Mon/Wed/Fri 10:00 - 11:30", 
+            "syllabus" : "Introduction to AI, Machine Learning, Neural Networks"
+        }
+    ], 
+    "dean" : "Prof. Alice Brown", 
+    "departments" : [
+        {
+            "HOD" : "Dr. John Smith", 
+            "Office Location" : "Room 201, CS Building", 
+            "Phone Contact" : "0918474757753", 
+            "courses" : [
+                {
+                    "courseId" : "CS504", 
+                    "credits" : 3, 
+                    "department" : "Computer Science", 
+                    "enrolledStudents" : [], 
+                    "lecturer" : "Dr Jane Doe", 
+                    "name" : "Artificial Intelligence", 
+                    "schedule" : "Mon/Wed/Fri 10:00 - 11:30", 
+                    "syllabus" : "Introduction to AI, Machine Learning, Neural Networks"
+                }
+            ], 
+            "departmentId" : "CS034", 
+            "email" : "cs_dept@example.edu", 
+            "name" : "Computer Science"
+        }
+    ], 
+    "email" : "sciences@example.edu", 
+    "facultyId" : "SCI098", 
+    "location" : "Science Building, Main Campus", 
+    "name" : "Sciences", 
+    "phoneContact" : "08067239849", 
+    "website" : "http://sciences.example.edu"
+}
