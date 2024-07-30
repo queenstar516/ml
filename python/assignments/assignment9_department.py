@@ -6,6 +6,7 @@ class Department:
         self.office_location = office_location
         self.email = email
         self.phone_contact = phone_contact
+        self.lecturers = []
         self.courses = []
 
     def add_course(self, course):
@@ -19,6 +20,7 @@ class Department:
             "Office Location": self.office_location,
             "email": self.email,
             "Phone Contact": self.phone_contact,
+            "Lecturers": [lecturer.to_dict() for lecturer in self.lecturers],
             "courses": [course.to_dict() for course in self.courses]
         }
     
