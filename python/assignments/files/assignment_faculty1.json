@@ -1,0 +1,80 @@
+{
+    "Departments" : [
+        {
+            "Courses" : [
+                {
+                    "Course Code" : "CS201", 
+                    "Course Title" : "Intro to Programming", 
+                    "Credits" : 3
+                }, 
+                {
+                    "Course Code" : "CS202", 
+                    "Course Title" : "Data Structures", 
+                    "Credits" : 3
+                }
+            ], 
+            "Department Name" : "Computer Engineering", 
+            "Lecturers" : [
+                {
+                    "ID" : "L001", 
+                    "Name" : "Alice Johnson"
+                }, 
+                {
+                    "ID" : "L002", 
+                    "Name" : "Bob Smith"
+                }
+            ]
+        }, 
+        {
+            "Courses" : [
+                {
+                    "Course Code" : "EE201", 
+                    "Course Title" : "Electromagnetics", 
+                    "Credits" : 3
+                }, 
+                {
+                    "Course Code" : "EE202", 
+                    "Course Title" : "Circuit Analysis", 
+                    "Credits" : 3
+                }
+            ], 
+            "Department Name" : "Electrical Engineering", 
+            "Lecturers" : [
+                {
+                    "ID" : "L003", 
+                    "Name" : "Carol Taylor"
+                }, 
+                {
+                    "ID" : "L004", 
+                    "Name" : "David Brown"
+                }
+            ]
+        }, 
+        {
+            "Courses" : [
+                {
+                    "Course Code" : "ME201", 
+                    "Course Title" : "Engineering Thermodynamics", 
+                    "Credits" : 3
+                }, 
+                {
+                    "Course Code" : "ME202", 
+                    "Course Title" : "Fluid Mechanics", 
+                    "Credits" : 3
+                }
+            ], 
+            "Department Name" : "Mechanical Engineering", 
+            "Lecturers" : [
+                {
+                    "ID" : "L005", 
+                    "Name" : "Eva White"
+                }, 
+                {
+                    "ID" : "L006", 
+                    "Name" : "Frank Green"
+                }
+            ]
+        }
+    ], 
+    "Faculty Name" : "Engineering"
+}
