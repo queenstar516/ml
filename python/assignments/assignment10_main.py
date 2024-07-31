@@ -2,6 +2,7 @@ from assignment10_course import Course
 from assignment10_lecturer import Lecturer
 from assignment10_department import Department
 from assignment10_faculty import Faculty
+import json
 
 #First Faculty
 faculty_eng = Faculty("Engineering")
@@ -82,3 +83,14 @@ dept3_arts.add_course(course5_arts)
 dept3_arts.add_course(course6_arts)
 #Print Faculty Information
 print(faculty_arts), 3
+
+
+fac = open("python/assignments/files/assignment_faculty1.json", "w")
+fac.write(json.dumps(faculty_eng.to_dict(), indent=4, separators=(", ", " : "), sort_keys=True))
+fac.close()
+
+dep1 = open()
+
+fac2 = open("python/assignments/files/assignment_faculty2.json", "w")
+fac2.write(json.dumps(faculty_arts.to_dict(), indent=4, separators=(", ", " : "), sort_keys=True))
+fac2.close()

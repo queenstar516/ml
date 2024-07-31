@@ -1,0 +1,80 @@
+{
+    "Departments" : [
+        {
+            "Courses" : [
+                {
+                    "Course Code" : "HIS201", 
+                    "Course Title" : "World History", 
+                    "Credits" : 3
+                }, 
+                {
+                    "Course Code" : "HIS202", 
+                    "Course Title" : "American History", 
+                    "Credits" : 3
+                }
+            ], 
+            "Department Name" : "History", 
+            "Lecturers" : [
+                {
+                    "ID" : "L007", 
+                    "Name" : "John Doe"
+                }, 
+                {
+                    "ID" : "L008", 
+                    "Name" : "Jane Smith"
+                }
+            ]
+        }, 
+        {
+            "Courses" : [
+                {
+                    "Course Code" : "PHI201", 
+                    "Course Title" : "Ethics", 
+                    "Credits" : 3
+                }, 
+                {
+                    "Course Code" : "PHI202", 
+                    "Course Title" : "Metaphysics", 
+                    "Credits" : 3
+                }
+            ], 
+            "Department Name" : "Philosophy", 
+            "Lecturers" : [
+                {
+                    "ID" : "L009", 
+                    "Name" : "Emily Davis"
+                }, 
+                {
+                    "ID" : "L010", 
+                    "Name" : "Micheal Johnson"
+                }
+            ]
+        }, 
+        {
+            "Courses" : [
+                {
+                    "Course Code" : "LIN201", 
+                    "Course Title" : "Syntax", 
+                    "Credits" : 3
+                }, 
+                {
+                    "Course Code" : "LIN202", 
+                    "Course Title" : "Semantics", 
+                    "Credits" : 3
+                }
+            ], 
+            "Department Name" : "Linguistics", 
+            "Lecturers" : [
+                {
+                    "ID" : "L011", 
+                    "Name" : "Laura Brown"
+                }, 
+                {
+                    "ID" : "L012", 
+                    "Name" : "Robert Wilson"
+                }
+            ]
+        }
+    ], 
+    "Faculty Name" : "Arts and Humanities"
+}

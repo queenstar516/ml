@@ -54,3 +54,4 @@ dept.close()
 cour = open("python/assignments/files/course.json", "w")
 cour.write(json.dumps(departmentList, indent=4, separators=(", ", " : "), sort_keys=True))
 cour.close()
+
