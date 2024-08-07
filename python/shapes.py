@@ -1,6 +1,7 @@
 from triangle import Triangle
 from square import Square
 
+
 tri1 = Triangle(5, 4)
 sqr1 = Square(6, 6)
 
